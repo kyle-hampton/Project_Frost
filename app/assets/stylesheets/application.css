@@ -1,0 +1,179 @@
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ #icon{
+   height: 50px;
+   width: 50px;
+ }
+ body{
+     background: #F2F2F2;
+     overflow-x: hidden;
+ }
+ #brand{
+     height: 55px;
+     width: 50px;
+     margin-left: 10px;
+ }
+ #emblem{
+     height: 160px;
+     width: 160px;
+     margin-bottom: 10%;
+ }
+ .emblem{
+     padding-top: 40px;
+     padding-bottom: 40px;
+ }
+ #nav-margin{
+     margin-left: 60%;
+ }
+ #frostheave-logo{
+     height: 250px;
+     width: 220px;
+     margin-top: 20%;
+     margin-left: 10%;
+ }
+ #frostheave{
+     padding-top: 4%;
+ }
+ #btn{
+     width: 110px;
+     height: 50px;
+     color: white;
+ }
+ #padding{
+     margin-left: 27%;
+ }
+ .twitter{
+      height: 1000px;
+      width: 1000px;
+      margin-left: 15%;
+ }
+ .wrap{
+     padding: 25px;
+ }
+ .brand-logo{
+     height: 55%;
+     width: 100%;
+     margin-right: 45%;
+ }
+ .what{
+     text-align: center;
+     color: #F2F2F2;
+     font-weight: bold;
+     background-color: #05AFFF;
+     height: 30%;
+     font: 20%;
+ }
+ .coming{
+     font-weight: bold;
+     text-align: center;
+     color: #F2F2F2;
+     font-weight: bold;
+     background-color: #05AFFF;
+     height: 30%;
+ }
+ ul{
+   display: inline-block;
+   list-style-type: none;
+   float: left;
+ }
+ .btn{
+     background-color: #6CCEFF;
+     width: 25%;
+     border: #05AFFF;
+ }
+ #mouse{
+     height: 230px;
+     width: 230px;
+     padding: 15px;
+ }
+ #phone{
+     height: 250px;
+     width: 250px;
+     margin-top: 20%;
+     margin-right: 10%;
+     margin-bottom: 5%;
+ }
+ #speedometer{
+     margin-right: 50%;
+     height: 210px;
+     width: 210px;
+ }
+ #text{
+     padding-top: 50px;
+ }
+ #row4{
+     padding-bottom: 10px;
+ }
+ .games{
+     padding-right: 8%;
+ }
+ #change{
+     padding: 10%;
+
+ }
+ #border{
+     border-color: #05AFFF;
+ }
+ #sign{
+     margin-left: 18%;
+ }
+ #blue-box{
+     background-color: #05AFFF;
+     height: 40%;
+ }
+
+ #text-box{
+     background-color: #6CCEFF;
+     height: 20%;
+ }
+
+ #social{
+     height: 100px;
+     width: 100px;
+     margin-left: 50%;
+ }
+ .social1{
+     background-color: #6CCEFF;
+ }
+ .animated-icon1, .animated-icon2, .animated-icon3, .animated-icon4 {
+   width: 30px;
+   height: 20px;
+   position: relative;
+   margin: 0px;
+   -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+   -o-transform: rotate(0deg);
+   transform: rotate(0deg);
+   -webkit-transition: .5s ease-in-out;
+   -moz-transition: .5s ease-in-out;
+   -o-transition: .5s ease-in-out;
+   transition: .5s ease-in-out;
+   cursor: pointer;
+ }
+ .parallax {
+     /* The image used */
+     background-image: url("./css/assets/esports-show-me-the-money-149209350413 - Copy.jpg");
+
+     /* Set a specific height */
+     height: 50%;
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
