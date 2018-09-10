@@ -22,6 +22,10 @@
      background: #F2F2F2;
      overflow-x: hidden;
  }
+ #nav-logo{
+   height: 100px;
+   width: 100px;
+ }
  #brand{
      height: 55px;
      width: 50px;
@@ -46,7 +50,7 @@
      margin-left: 10%;
  }
  #frostheave{
-     padding-top: 4%;
+
  }
  #btn{
      width: 110px;
@@ -76,6 +80,9 @@
      background-color: #05AFFF;
      height: 30%;
      font: 20%;
+ }
+ #what-is{
+   padding-bottom:20px ;
  }
  .coming{
      font-weight: bold;

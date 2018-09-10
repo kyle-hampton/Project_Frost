@@ -6,6 +6,11 @@ body{
     background: #F2F2F2;
     overflow-x: hidden;
 }
+#nav-logo{
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+}
 #brand{
     height: 55px;
     width: 50px;
@@ -34,7 +39,7 @@ body{
 }
 #btn{
     width: 110px;
-    height: 50px;  
+    height: 50px;
     color: white;
 }
 #padding{
@@ -99,6 +104,9 @@ ul{
 #text{
     padding-top: 50px;
 }
+#text2{
+    padding-right: 70px;
+}
 #row4{
     padding-bottom: 10px;
 }
@@ -107,7 +115,7 @@ ul{
 }
 #change{
     padding: 10%;
-    
+
 }
 #border{
     border-color: #05AFFF;
@@ -148,16 +156,22 @@ ul{
   transition: .5s ease-in-out;
   cursor: pointer;
 }
-.parallax { 
+.parallax {
     /* The image used */
     background-image: url("./css/assets/esports-show-me-the-money-149209350413 - Copy.jpg");
 
     /* Set a specific height */
-    height: 50%; 
+    height: 50%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
 }
